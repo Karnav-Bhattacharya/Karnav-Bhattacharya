@@ -23,7 +23,6 @@ I’m particularly interested in treating ML as an **engineering discipline** �
 
 - 🏗️ Building **computer vision systems** in a startup environment (production pipelines, deployment, inference)
 - 🔊 Developing a **text-to-speech pipeline** exploring lightweight voice systems and inference constraints
-- 🎥 Research Intern under *Dr. Asif Ekbal* working on **video summarization**
 - 🤖 Experimenting with **agent-based workflows** using LangGraph
 
 ---
