@@ -32,7 +32,7 @@ I’m particularly interested in treating ML as an **engineering discipline** �
 
 ---
 
-### 🔍 Multimodal Image Understanding (Eagleye)
+### 🔍 Eagleye: InterIIT Tech 14th Edition Project
 - Built an end-to-end pipeline combining **Gemma-3-27B (VLM) + YOLO + BLIP**
 - Designed for **remote sensing / satellite imagery**
 - Implemented **LangGraph-based orchestration**
@@ -62,7 +62,7 @@ I’m particularly interested in treating ML as an **engineering discipline** �
 - 📦 Quantization (4-bit, FP8, etc.)
 - 🚀 Low-latency ML systems
 - 🧠 Multimodal reasoning systems
-- 🔗 Agent orchestration (LangGraph, LangChain, SwarmAI, CrewAI)
+- 🔗 Agent systems
 
 ---
 
@@ -70,8 +70,6 @@ I’m particularly interested in treating ML as an **engineering discipline** �
 
 **Languages:** Python, SQL  
 **ML:** PyTorch, Transformers, Computer Vision, Generative Models  
-**Tools:** FastAPI, LangChain, LangGraph, Librosa  
-
 ---
 
 ## Contact
