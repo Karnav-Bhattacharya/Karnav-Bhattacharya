@@ -77,5 +77,5 @@ I’m particularly interested in treating ML as an **engineering discipline** �
 ## Contact
 
 - 📧 bhattacharyakarnav@gmail.com  
-- 🔗 https://www.linkedin.com/in/karnav  
-- 💻 https://github.com/karnavbhattacharya
+- 🔗 www.linkedin.com/in/karnav-bhattacharya-5b2459288 
+- 💻 [https://github.com/Karnav-Bhattacharya](https://github.com/Karnav-Bhattacharya/)
