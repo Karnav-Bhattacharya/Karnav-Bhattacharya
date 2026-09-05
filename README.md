@@ -19,15 +19,18 @@ I’m particularly interested in treating ML as an **engineering discipline** �
 
 ---
 
-## What I’m Currently Doing
+## Selected Work
 
-- 🏗️ Building **computer vision systems** in a startup environment (production pipelines, deployment, inference)
-- 🔊 Developing a **text-to-speech pipeline** exploring lightweight voice systems and inference constraints
-- 🤖 Experimenting with **agent-based workflows** using LangGraph
+### 🔍 Multimodal Search Engine — Image Retrieval with Cross-Encoder Reranking
+
+- Built a multimodal image retrieval system searching 400K Amazon product images using text or image queries, with cross-encoder reranking to improve retrieval quality
+- Designed a TREC-style pooled evaluation pipeline with automated graded relevance judging, benchmarked across 1,270 queries using MAP, MRR, Precision@K, and nDCG
+- Improved retrieval quality over the CLIP baseline by **+0.040 MAP**, **+0.042 MRR**, and **+0.070 nDCG@5**
+- Benchmarked the accuracy–latency trade-off introduced by cross-encoder reranking
+
+👉 Repo: <https://github.com/Karnav-Bhattacharya/Multimodal-Image-Retrieval-with-Cross-Encoder-Reranking>
 
 ---
-
-## Selected Work
 
 ### 🔍 Multimodal Image Understanding (Eagleye)
 - Built an end-to-end pipeline combining **Gemma-3-27B (VLM) + YOLO + BLIP**
@@ -36,22 +39,20 @@ I’m particularly interested in treating ML as an **engineering discipline** �
 - Deployed using **FastAPI**
 - Focus: model routing, multimodal reasoning, inference coordination
 
-👉 Repo: https://github.com/Karnav-Bhattacharya/eagleye_backend
+👉 Repo: <https://github.com/Karnav-Bhattacharya/eagleye_backend>
 
 ---
 
-### 🎵 HarmonyAI (Music ML System)
-- Full-stack system for **music analysis and generation**
-- Extracted audio features (tempo, pitch, chroma, spectral)
-- Built generation pipeline using **MusicGen**
+### 📊 InSightAI — Agentic KPI Investigation & Recommendation Engine
 
----
+- Built a multi-stage agentic pipeline that detects commercially material KPI movements, investigates root causes across structured and unstructured data, and generates evidence-grounded recommendations
+- Designed a deterministic anomaly-detection layer (rolling z-scores + revenue-materiality thresholds) to keep the "is this actually wrong" decision fully auditable and LLM-free
+- Fine-tuned SLM **Gemma-2-2B** for batched, record-level signal extraction from unstructured business text (tickets, reviews, social)
+- Orchestrated an **Investigation Agent + Recommendation Agent** (Qwen3-4B) with deterministic evidence retrieval and strict JSON-schema validation at every stage
+- Deployed the whole solution using python-fastapi backend on netlify
+- Evaluated against a synthetic dataset with 8 engineered ground-truth causal scenarios to test hypothesis accuracy and abstention behavior
 
-### 🔊 Text-to-Speech (Ongoing)
-- Exploring **voice pipelines and inference constraints**
-- Focus on lightweight deployment and latency trade-offs
-
-👉 Repo: https://github.com/Karnav-Bhattacharya/tts
+👉 Repo: <https://github.com/Karnav-Bhattacharya/InSightAI>
 
 ---
 
